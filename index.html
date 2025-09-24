@@ -180,7 +180,6 @@
                 <label for="state">State</label>
                 <select id="state" name="state" required>
                     <option value="" disabled selected>Select a state...</option>
-                    <!-- States will be populated by JavaScript -->
                 </select>
                 <div id="stateError" class="error-message"></div>
             </div>
@@ -189,10 +188,8 @@
             </div>
         </div>
 
-        <!-- Step 2: Results -->
         <div class="form-step" id="step2">
             <div id="resultsList">
-                <!-- Matching campaigns will be populated by JavaScript -->
             </div>
             <div class="button-group">
                 <button type="button" class="btn-prev" onclick="prevStep()">Previous</button>
@@ -235,6 +232,7 @@
                     <a href="ACA.html" target="_blank"><div class="stat-box"><p>ACA</p></div></a>
                     <a href="FE.html" target="_blank"><div class="stat-box"><p>FE</p></div></a>
                     <a href="SSDI.html" target="_blank"><div class="stat-box"><p>SSDI</p></div></a>
+                    <a href="auto.html" target="_blank"><div class="stat-box"><p>AUTO</p></div></a>
                 `;
             }
         }
